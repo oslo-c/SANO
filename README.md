@@ -5,6 +5,7 @@ SANO - Swiss-Army-Knife-Needed-For-Osint
 ## Installation
 
 ```pip install pystyle, requests, phonenumbers, bs4, json, hashlib, re, binascii, base64```
+YOU MUST CHANGE THE KEYS IN THE CODE!
 
 # Preview
 ![preview](https://github.com/scarlmao/SANO/blob/main/image.png)
