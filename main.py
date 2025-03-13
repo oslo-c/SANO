@@ -1,6 +1,7 @@
 from pystyle import Colors, Colorate, Center, Box
 import requests
 import os
+from dotenv import load_dotenv
 import phonenumbers
 from phonenumbers import geocoder, carrier, timezone
 import requests
@@ -17,6 +18,7 @@ import base64
 from urllib.parse import urlparse, urljoin
 
 os.system('cls')
+load_dotenv()
 
 banner = r"""
      []                         ██████╗  █████╗ ██╗ ██████╗ 
@@ -30,8 +32,8 @@ banner = r"""
 
 class key:
 
-   hunter = "59f5b52ae158ef1133c54a3f7089c4b73becfef8" # https://api.hunter.io/v2/email-verifier
-   whoisapi = "at_EUHr3xRQV9NBAyyAVe15AWTmYLMJ8"
+   hunter = os.getenv("HUNTER_KEY")
+   whoisapi = os.getenv("WHOIS_KEY")
 
 def bing_search(query):
 
