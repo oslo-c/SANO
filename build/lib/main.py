@@ -16,8 +16,14 @@ from requests.auth import HTTPBasicAuth
 import binascii
 import base64
 from urllib.parse import urlparse, urljoin
+import platform
 
-os.system('cls')
+def clear_screen():
+    if platform.system() == "Windows":
+        os.system('cls')
+    else:
+        os.system('clear')
+
 load_dotenv()
 
 def init_api_keys():
@@ -245,9 +251,9 @@ paths = [
 ]
 
 def main():
-    os.system('cls')
+    clear_screen()
     print(Center.XCenter((Colorate.Vertical(Colors.purple_to_blue, banner,1))))
-    print(Colors.purple + Box.DoubleCube("[1] Google Dork            [7] Domain Lookup            [13] Site Crawler\n[2] Username Lookup        [8] Ip Lookup                [14] Site Path Finder\n[3] Email Lookup           [9] Discord Server Lookup\n\n[4] Phone Lookup           [10] Site Robots And Map\n[5] Court Lookup           [11] Github Lookup\n[6] Poeple Lookup          [12] Bin Lookup              [00] Exit"))
+    print(Colors.purple + Box.DoubleCube("[1] Google Dork            [7] Domain Lookup            [13] Site Crawler\n[2] Username Lookup        [8] Ip Lookup                [14] Site Path Finder\n[3] Email Lookup           [9] Discord Server Lookup\n\n[4] Phone Lookup           [10] Site Robots And Map\n[5] Court Lookup           [11] Github Lookup\n[6] People Lookup          [12] Bin Lookup              [00] Exit"))
 
     i = input(Colors.white + "Input > ")
 
