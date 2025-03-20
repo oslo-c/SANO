@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: SANO
+Version: 1.0.0
+Summary: A user-friendly OSINT tool
+Home-page: https://github.com/oslo-c4/SANO
+Author: oslo-c4
+Author-email: oslo-c4@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: phonenumbers
+Requires-Dist: beautifulsoup4
+Requires-Dist: pystyle
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary
+
+# SANO
+The Swiss Army Knife For All Your Osint Needs.
+SANO - Swiss-Army-Knife-Needed-For-Osint
+
+## Installation
+
+```pip install pystyle, requests, phonenumbers, bs4, json, hashlib, re, binascii, base64```
+YOU MUST CHANGE THE KEYS IN THE CODE!
+
+# Preview
+![preview](https://github.com/scarlmao/SANO/blob/main/image.png)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=scarlmao/SANO&type=Date)](https://star-history.com/#scarlmao/SANO&Date)
+
+This tool offers google dorking, username lookup, email lookup, phone lookup, court lookup, poeple lookup, domain lookup, ip lookup, discord server lookup, site robots and map, github lookup, bin lookup, site crawler, and site path finder

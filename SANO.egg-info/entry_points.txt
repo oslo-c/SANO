@@ -1,0 +1,2 @@
+[console_scripts]
+sano = main:main

@@ -16,13 +16,8 @@ from requests.auth import HTTPBasicAuth
 import binascii
 import base64
 from urllib.parse import urlparse, urljoin
-import platform
 
-if platform.system() == "Windows":
-    os.system('cls')
-else:
-    os.system('clear')
-
+os.system('cls')
 load_dotenv()
 
 def init_api_keys():

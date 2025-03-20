@@ -1,0 +1,11 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+setup.py
+SANO.egg-info/PKG-INFO
+SANO.egg-info/SOURCES.txt
+SANO.egg-info/dependency_links.txt
+SANO.egg-info/entry_points.txt
+SANO.egg-info/requires.txt
+SANO.egg-info/top_level.txt
